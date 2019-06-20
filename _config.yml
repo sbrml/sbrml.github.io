@@ -33,6 +33,7 @@ timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
+remote_theme: ColeTownsend/Balzac-for-Jekyll
 
 kramdown:
   auto_ids: true
