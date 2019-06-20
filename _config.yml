@@ -1,10 +1,10 @@
 title:            SBRML
-url:              https://github.com/sbrml/sbrml.github.io/
+url:              https://sbrml.github.io/
 description:      Machine Learning fun. 
 
 # Owner/author information
 owner:
-  name:           Greg Flamich, Stratis Markou
+  name:           Gergely Flamich, Stratis Markou
   bio:            "Machine Learning MPhil students"
   email:          gf332@cam.ac.uk, em626@cam.ac.uk
   github:         gergely-flamich, stratisMarkou 
@@ -16,7 +16,7 @@ tools:
 
 # Open Graph customization
 opengraph:
-  locale:           en_US
+  locale:           en_GB
 
 # Links to include in top navigation
 # For external links add external: true
@@ -26,28 +26,26 @@ links:
   - title: Github
     url: https://github.com/sbrml
     external: true
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 highlighter: pygments
 markdown:    kramdown
-remote_theme: ColeTownsend/Balzac-for-Jekyll
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+syntax_highlighter_opts:
+  line_numbers:
+  line_numbers_start: 1
+  tab_width: 4
+  bold_every: 10
+  css: class
 
 sass:
     style: :compressed
